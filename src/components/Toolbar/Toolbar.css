@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #521751;
+    background: #363636;
     height: 56px;
 }
 
@@ -14,8 +14,12 @@
     padding: 0 1 rem;
 }
 
+.toolbar_logo {
+    margin-left: .3rem;
+}
+
 .toolbar_logo a {
-    color: white;
+    color: #79dfd5;
     text-decoration: none;
     font-size: 1.5rem;
 }
@@ -36,7 +40,7 @@
 }
 
 .toolbar_navigation-items a {
-    color: white;
+    color: #79dfd5;
     text-decoration: none;   
 }
 
@@ -44,3 +48,4 @@
 .toolbar_navigation-items a:active {
     color:  #fa923f;
 }
+
