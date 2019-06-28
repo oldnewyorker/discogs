@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   state = {
@@ -33,6 +34,7 @@ class App extends Component {
       <main style={{marginTop: '64px'}}>
         <p> Page Content</p>
       </main>
+      <Footer />
     
     </div>
     );
